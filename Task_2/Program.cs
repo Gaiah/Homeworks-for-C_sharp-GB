@@ -16,10 +16,6 @@ else if(a < b) {
     Console.WriteLine(max); 
 } 
  
-else if(a == b) { 
+else (a == b) { 
  Console.WriteLine("These two numbers are equal!"); 
 } 
- 
-else { 
- Console.WriteLine("Oops... Looks like something went wrong. Try again with correct numbers!"); 
-}
